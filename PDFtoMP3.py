@@ -4,6 +4,8 @@ import PyPDF2
 from gtts import gTTS
 from os.path import splitext
 
+# PDF to Mp3 Player 
+
 Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
 fileLocation = askopenfilename()  # open the dialog GUI
 
