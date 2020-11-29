@@ -4,6 +4,7 @@ from tkinter import filedialog, ttk
 import time
 from mutagen.mp3 import MP3
 
+# Initialise the UI Representer
 root = Tk();
 root.title('PDF Audio Player')
 root.geometry("560x400")
